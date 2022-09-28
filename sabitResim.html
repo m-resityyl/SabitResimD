@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabit resim</title>
+    <style>
+            *{
+        margin: 0;
+        padding: 0;
+        }
+    body, html{
+        height: 100%;
+    }
+    .gorsel{
+        height: 100%;
+        background-color: tomato;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .bant{
+        height: 1%;
+        background-color: grey;
+    }
+    #gor1{
+        background-image: url(img/1.jpg);
+    }
+    #gor2{
+        background-image: url(img/2.jpg);
+    }
+    #gor3{
+        background-image: url(img/3.jpg);
+    }
+    #gor4{
+        background-image: url(img/4.jpg);
+    }
+    ::-webkit-scrollbar{
+        background-color: #f7f1e3;       
+        width: 14px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background: #84817a;
+        border-radius: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div id="gor1" class="gorsel"></div>
+    <div id="bant1" class="bant"></div>
+    <div id="gor2" class="gorsel"></div>
+    <div id="bant2" class="bant"></div>
+    <div id="gor3" class="gorsel"></div>
+    <div id="bant3" class="bant"></div>
+    <div id="gor4" class="gorsel"></div>
+</body>
+</html>
